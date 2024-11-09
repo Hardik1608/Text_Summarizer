@@ -1,1 +1,2 @@
 # Text_Summarizer
+A comprehensive, end-to-end text summarization tool designed to transform lengthy text documents into concise summaries. The project uses Google's <a href="https://huggingface.co/google/pegasus-cnn_dailymail">pegasus-cnn-dailymail</a> pre-trained model from hugging face. The model is further trained on <a href='https://huggingface.co/datasets/Samsung/samsum'> Samsum</a> dataset which contains around `16369` conversation instances divided into train, test and validation splits.
